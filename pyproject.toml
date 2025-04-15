@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "hf_agents"
+version = "0.1.0"
+description = ""
+authors = ["Emma Bukowski <emma.bukowski@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+peft = "^0.15.1"
+trl = "^0.16.1"
+wandb = "^0.19.9"
+tensorboardx = "^2.6.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
